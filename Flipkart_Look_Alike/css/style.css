@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+/* Using CSS variable */
+:root {
+    --main-bg-color: #2370f4;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: rgb(221, 219, 219);
+}
+
+header {
+  height: 9vh;
+  background-color: var(--main-bg-color);
+}
+/* height of header and ul both same  */
+nav ul{
+    height: 9vh;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+/* nav ul li a:hover{
+    font-weight: bold;
+} */
+
+.search{
+    display: flex;
+    align-items:center;    
+}
+
+.text{
+    height: 5vh;
+    width: 30vw;
+    border-radius: 2px;
+    margin: 0 10px 0 40px;
+    
+}
+
+.btn{
+    background-color: #2370f4;
+    border-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    color: white;
+    height: 5vh;
+    /* width: 10vw; */
+}
+
+.btn:hover{
+    font-weight: bold;
+    background-color: blue;
+    
+}
+
+.mainContainer {
+    min-height: calc(100vh - 9vh - 7vh);
+}
+
+.topBarCard{
+    /* background-color: rgb(149, 209, 131); */
+    width: 5vw;
+    margin: 10px;
+    padding: 0 33px;
+}
+
+
+.topBarCard img,p{
+    /* background-color: burlywood; */
+    width: 70px;
+    /* padding-top:2px; */
+}
+
+.slider{
+    background-color: black;
+    width: 80vw;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.sliderimg{
+width: 80vw;
+height: 45vh;
+}
+
+.card{
+    /* background-color: blueviolet; */
+    width: 85vw;
+    /* margin: auto; */
+    margin:20px auto;
+    
+}
+
+/* .card h3{
+    font-family: "Lato", sans-serif;
+} */
+.cardContent{
+    /* background-color: lawngreen; */
+    display:flex;
+    justify-content: center;
+    /* overflow: scroll; */
+    overflow: hidden;
+    padding: 1%;
+}
+.cardImg{
+    width: fit-content;
+}
+.card img{
+    width: 130px;
+    height: 130px;
+    padding-left: 0px;
+    padding-top: 5px;
+    
+}
+
+.lines{
+    width: fit-content;
+    /* margin-left: 40px; */
+    margin:0 30px;
+    /* display:inline-block; */
+}
+
+p{
+    font-family: "Lato", sans-serif;
+}
+
+
+
+
+footer {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 7vh;
+  font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,41 @@
+nav ul{
+    display:flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    margin: 0 23px ;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn{
+    padding: 5px 2px 5px 2px;
+    width: 70px;
+    font-size: small;
+}
+
+.topBar{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgAndText{
+display:inline-block;
+margin: 0 5px;
+}
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
